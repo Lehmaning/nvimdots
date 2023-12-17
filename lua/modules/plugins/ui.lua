@@ -18,7 +18,6 @@ ui["Jint-lzxy/nvim"] = {
 }
 ui["j-hui/fidget.nvim"] = {
 	lazy = true,
-	branch = "legacy",
 	event = "LspAttach",
 	config = require("ui.fidget"),
 }
@@ -39,6 +38,7 @@ ui["nvim-lualine/lualine.nvim"] = {
 }
 ui["zbirenbaum/neodim"] = {
 	lazy = true,
+	commit = "9477da0",
 	event = "LspAttach",
 	config = require("ui.neodim"),
 }

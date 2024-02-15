@@ -53,7 +53,7 @@ return function()
 			cmp = true,
 			coc_nvim = false,
 			dap = true,
-			dap_ui = true,
+			dap_ui = false,
 			dashboard = false,
 			dropbar = { enabled = true, color_mode = true },
 			fern = false,
